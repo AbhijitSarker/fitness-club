@@ -1,0 +1,38 @@
+.exercise{
+    justify-content: start;
+    width: 300px;
+    height: 810px;
+    border-radius: 10px;
+    border: 1px solid #95A0A7;
+    background-color: white;
+    margin: 50px;
+    position: relative;
+}
+
+.image{
+    width: 286px;
+    height: 286px;
+    margin: 7px;
+    border-radius: 8px;}
+
+
+.exercise-info{
+    margin: 0 14px;
+    text-align: start;     
+        margin-bottom: 0;
+        margin-top: 5px;
+    }    
+
+
+.btn-cart {
+    margin: 10px;
+    width: 280px;
+    border-radius: 8px;
+    border: 1px solid #95A0A7;
+    background: #068FFF;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
