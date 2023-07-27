@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
 import './Gym.css'
+import Dashboard from '../Dashboard/Dashboard';
 
 const Gym = () => {
 
@@ -25,7 +26,7 @@ const Gym = () => {
 
             </div>
             <div className='dashboard-container'>
-                <h1>Dashboard</h1>
+                <Dashboard></Dashboard>
             </div>
 
 

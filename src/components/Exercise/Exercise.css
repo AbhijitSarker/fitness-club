@@ -1,6 +1,6 @@
 .exercise{
     justify-content: start;
-    width: 300px;
+    width: 320px;
     height: 450px;
     border-radius: 10px;
    
@@ -27,7 +27,7 @@
 
 .btn-cart {
     margin: 10px;
-    width: 280px;
+    width: 300px;
     border-radius: 8px;
     border: 1px solid #95A0A7;
     background: #068FFF;

@@ -2,7 +2,7 @@ import React from 'react';
 import './Exercise.css';
 
 const Exercise = ({ exercise }) => {
-    const { name, age, time, about, company } = exercise;
+    const { name, age, time, about } = exercise;
     return (
         <div className='exercise'>
             <img className='image' src={require('../../images/gym.jpg')} alt="fg" />
