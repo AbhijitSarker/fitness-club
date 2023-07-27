@@ -15,7 +15,7 @@ const Exercise = ({ exercise }) => {
             </div>
 
             <button className='btn-cart'>
-                <p className='btn-text'>Add to cart</p>
+                <p className='btn-text'>Add to List</p>
 
             </button>
         </div>

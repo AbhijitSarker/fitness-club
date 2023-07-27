@@ -4,6 +4,7 @@
     top: 0;
 }
 
+/* profile section */
 .profile{
     display: flex;
     align-items: center;
@@ -29,22 +30,85 @@
     margin-top: 8px;
 }
 
+/* Health section */
+
 .health{
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: #f2f4fa;
     border-radius: 10px;
-    
 }
 
 .health-info{
     margin: 15px;
 }
+
 .health-info h3{ 
     margin-bottom: 5px;
     margin-top: 0px;
 }
+
 .health-info p{ 
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+/* break section */
+.break-title{
+    text-align: start;
+    margin-top: 30px;
+}
+
+.break{
+    background-color: #f2f4fa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.break p{
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.break p:hover {
+    background-color: #068FFF;
+    color: white;
+}
+
+/* details section */
+.details h3{
+    text-align: start;
+    margin-top: 30px;
+}
+
+.ex-time, .br-time{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f2f4fa;
+}
+
+.activity-btn{
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+    width: 300px;
+    border-radius: 8px;
+    border: 0px;
+    background: #068FFF;    
+}
+
+.activity-btn:hover{
+    background-color: teal;
 }

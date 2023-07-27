@@ -11,7 +11,7 @@
 }
 
 .image{
-    width: 286px;
+    width: 300px;
     height: 186px;
     margin: 7px;
     border-radius: 8px;}
@@ -26,10 +26,12 @@
 
 
 .btn-cart {
+    color: white;
+    font-weight: 600;
     margin: 10px;
     width: 300px;
     border-radius: 8px;
-    border: 1px solid #95A0A7;
+    border: 0px;
     background: #068FFF;
     position: absolute;
     bottom: 0;
@@ -38,3 +40,6 @@
     justify-content: center;
 }
 
+.btn-cart:hover {
+    background-color: teal;
+}

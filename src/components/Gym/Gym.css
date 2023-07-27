@@ -1,7 +1,7 @@
 .gym-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: aliceblue;
+    background-color: #f2f4fa;
 }
 
 .ex-container{
