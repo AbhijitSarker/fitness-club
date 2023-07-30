@@ -7,11 +7,18 @@ const Gym = () => {
 
     const [exercises, setExercises] = useState([]);
 
+    const [dashboard, setDashboard] = useState([]);
+
     useEffect(() => {
         fetch("exercise.json")
             .then(res => res.json())
             .then(data => setExercises(data))
     }, []);
+
+    const handleAddToDashboard = (exercise) => {
+        const newDashboard = [...dashboard, exercise];
+        setDashboard(newDashboard);
+    };
 
 
     return (
@@ -21,12 +28,19 @@ const Gym = () => {
                     exercises.map(exercise => <Exercise
                         key={exercise.id}
                         exercise={exercise}
+                        handleAddToDashboard={handleAddToDashboard}
+
                     ></Exercise>)
                 }
 
             </div>
             <div className='dashboard-container'>
-                <Dashboard></Dashboard>
+
+                <Dashboard
+                    dashboard={dashboard}
+
+                ></Dashboard>
+
             </div>
 
 

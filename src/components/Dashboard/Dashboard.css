@@ -89,7 +89,7 @@
     margin-top: 30px;
 }
 
-.ex-time, .br-time{
+.ex-time, .br-time, .total-time{
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -102,6 +102,7 @@
 .activity-btn{
     color: white;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: 600;
     width: 300px;
     border-radius: 8px;
@@ -112,3 +113,6 @@
 .activity-btn:hover{
     background-color: teal;
 }
+
+
+

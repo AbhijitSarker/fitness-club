@@ -1,8 +1,14 @@
 import React from 'react';
 import './Exercise.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDumbbell, faFaceAngry } from '@fortawesome/free-solid-svg-icons'
 
-const Exercise = ({ exercise }) => {
+
+const Exercise = ({ exercise, handleAddToDashboard }) => {
     const { name, age, time, about } = exercise;
+
+
+
     return (
         <div className='exercise'>
             <img className='image' src={require('../../images/gym.jpg')} alt="fg" />
@@ -14,8 +20,8 @@ const Exercise = ({ exercise }) => {
 
             </div>
 
-            <button className='btn-cart'>
-                <p className='btn-text'>Add to List</p>
+            <button onClick={() => handleAddToDashboard(exercise)} className='btn-dashboard'>
+                <p className='btn-text'> <FontAwesomeIcon icon={faFaceAngry} />Add to List   <FontAwesomeIcon icon={faDumbbell} />   </p>
 
             </button>
         </div>
