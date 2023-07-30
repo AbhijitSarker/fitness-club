@@ -38,7 +38,6 @@ const Dashboard = ({ dashboard }) => {
     return (
         <div className='dashboard'>
             <h1>Dashboard</h1>
-            <p>time: </p>
             <div className='profile'>
                 <img className='profile-image' src={require('../../images/profile.jpg')} alt="" />
                 <div className='profile-info'>
